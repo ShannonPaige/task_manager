@@ -1,0 +1,29 @@
+.navbar {
+    min-height: 90px;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-text {
+  color: #00BD70;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.navbar-nav {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a.hover {
+    color: #00BD70;
+}
+
+#logo {
+  max-height: 80px
+}
