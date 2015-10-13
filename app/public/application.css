@@ -1,6 +1,6 @@
 .navbar {
-    min-height: 90px;
-    margin-bottom: 0px;
+  min-height: 90px;
+  margin-bottom: 20px;
 }
 
 .navbar-default {
@@ -21,9 +21,60 @@
 }
 
 .navbar-default .navbar-nav > li > a.hover {
-    color: #00BD70;
+  color: #00BD70;
+}
+
+.tagline {
+  color: white;
+  margin-top: -150px;
+}
+
+h1 {
+  color: #00BD70;
+}
+
+a {
+    color: #009C5D;
+    text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+.task-buttons {
+  color: white;
+  padding: 20px;
+  background-color: #009C5D;
+
+}
+
+.well {
+  background-color: #00BD70;
+  border-color: #009C5D;
+}
+
+.task-buttons {
+  margin: 0 5px;
+}
+
+.task-buttons a {
+  color: white;
 }
 
 #logo {
-  max-height: 80px
+  max-height: 80px;
+}
+
+#background-image {
+  height: 295px;
+}
+
+.background-well {
+  min-height: 330px;
+}
+
+.btn-default {
+  color: white;
+  background-color: #00BD70;
 }

@@ -4,6 +4,9 @@ tasks:
   title: Build Task Manager
   description: Using the description from Mod 2 pre work
 - id: 2
-  title: show mom task manager
-  description: after brunch
-total: 2
+  title: Learn Bootstrap
+  description: It's a thing. There are columns.
+- id: 3
+  title: Check code
+  description: Make sure code isn't broken after installing bootstrap and custom CSS
+total: 3
