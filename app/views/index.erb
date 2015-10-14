@@ -2,9 +2,9 @@
 
 <div class="list-group">
   <% @tasks.each do |task| %>
-    <h3 class="list-group-item"><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+    <h3 class="list-group-item" id = "id<%= task.id %>" ><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
     <a href = "/tasks/<%= task.id %>/edit">Edit</a>
-    <form action="/tasks/<%= task.id %>" method="POST">
+    <form id = "form-id<%= task.id %>" action="/tasks/<%= task.id %>" method="POST">
       <input type="hidden" name="_method" value="DELETE">
       <input class = "delete-btn" type="submit" value="Delete"/>
     </form>
