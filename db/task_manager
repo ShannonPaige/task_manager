@@ -11,5 +11,5 @@ tasks:
   description: Make sure code isn't broken after installing bootstrap and custom CSS
 - id: 4
   title: Add biz cat
-  description: ''
+  description: he's awesome!
 total: 5
