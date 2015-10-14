@@ -9,4 +9,7 @@ tasks:
 - id: 3
   title: Check code
   description: Make sure code isn't broken after installing bootstrap and custom CSS
-total: 3
+- id: 4
+  title: Add biz cat
+  description: ''
+total: 5
