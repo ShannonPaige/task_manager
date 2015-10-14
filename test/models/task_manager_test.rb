@@ -18,7 +18,7 @@ class TaskManagerTest < Minitest::Test
     assert_equal "this is a description", task.description
   end
 
-  def test_update
+  def test_task_is_updated
     data = { :title => "new title", :description => "new description"}
     TaskManager.update(1, data)
     task = TaskManager.find(1)
@@ -28,7 +28,7 @@ class TaskManagerTest < Minitest::Test
     assert_equal "new description", task.description
   end
 
-  def test_delete
+  def test_task_is_deleted
     TaskManager.delete(2)
     all_tasks = TaskManager.all
     ids = all_tasks.map { |task| task.id }
@@ -40,7 +40,7 @@ class TaskManagerTest < Minitest::Test
     assert_equal ["this is a description", "this is a 3rd description"], descriptions
 end
 
-  def test_all
+  def test_all_tasks_are_returned
     all_tasks = TaskManager.all
     ids = all_tasks.map { |task| task.id }
     titles = all_tasks.map { |task| task.title }
@@ -51,7 +51,7 @@ end
     assert_equal ["this is a description", "this is a 2nd description", "this is a 3rd description"], descriptions
   end
 
-  def test_find
+  def test_find_a_task_by_id_number
     task = TaskManager.find(2)
 
     assert_equal 2, task.id
